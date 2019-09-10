@@ -1,0 +1,1 @@
+java -Dserver.port="8084" -Dremote.server.port="8089" -Dremote.server.ip="http://127.0.0.1" -jar clientapp-0.0.1-SNAPSHOT.jar
