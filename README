@@ -1,0 +1,34 @@
+# Server/ Client Application with DB persistence
+# Danie Joubert – 0845484120
+# 2019/09/11
+
+# Description - Client Application
+*I wrote a service application in the form of RESTFUL API using spring framework, and a client application using spring MVC.
+*The client presents a website where the user can submit a message to be stored in a SQL DB.
+*The remote IP address, the DB connection string and the ports are configurable without recompiling.
+
+#Repositories:
+https://github.com/DanieJoubert/045-ClientApp
+https://github.com/DanieJoubert/045-ServerApp
+*DB Create scripts: ..\045-ServerApp\DBScripts
+*Config setters:
+*•	../045-ClientApp/BuildHelperScripts
+*•	../045-ServerApp/BuildHelperScripts
+
+#Setup options:
+*Pull the repositories
+*Create the db schema
+*Use the configsetters to set:
+*•	Server port
+*•	Client port
+*•	Connection string
+*•	Execute the prebuild jar files
+*Build the code from an “ide” like vs code:
+*•	Command: .\gradlew build
+*•	Use the configsetters to execute the new builds located at:
+**o	\client-app\build\libs
+**o	\server-app\build\libs
+
+#NB: Installed java version is openJdk 11.0.4 (java -version)
+
+
